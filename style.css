@@ -1,30 +1,40 @@
+
 body {
-  font-family: serif, sans-serif;
-  background: #f6e9ca;
-  color: #006666;
-  text-align: center;
-  padding: 50px;
+  font-family: Arial, sans-serif;
+  background: #13312a; /* verde petróleo */
+  color: #f6e9ca;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
-h1 {
-  font-size: 2.00rem;
+.card {
+  display: flex;
+  background: #004c4c;
+  border-radius: 20px;
+  padding: 20px 30px;
+  align-items: center;
+  gap: 20px;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-p {
-  font-size: 1.2rem;
+.foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* deixa a foto arredondada */
+  object-fit: cover;
+  border: 3px solid #009999;
 }
 
-button {
-  background: #ff9800;
-  color: white;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 8px;
+.texto h1 {
+  margin: 0 0 10px 0;
+  font-size: 1.8rem;
+}
+
+.texto p {
+  margin: 5px 0;
   font-size: 1rem;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-button:hover {
-  background: #e68900;
 }
